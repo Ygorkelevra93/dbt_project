@@ -7,3 +7,4 @@ first_name || ' ' || last_name name,
 from {{source('sources','employees')}} 
 )
 select * from calc_employees 
+-- novo comentario 
